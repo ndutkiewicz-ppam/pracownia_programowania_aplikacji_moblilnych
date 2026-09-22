@@ -1,1 +1,0 @@
-# pracownia_programowania_aplikacji_moblilnych
