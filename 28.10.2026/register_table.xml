@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <TableRow android:layout_marginBottom="12dp">
+        <TextView 
+            android:text="Imię:" 
+            android:paddingEnd="16dp" />
+        <EditText 
+            android:id="@+id/etRegNameTable"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="12dp">
+        <TextView 
+            android:text="Nazwisko:" 
+            android:paddingEnd="16dp" />
+        <EditText 
+            android:id="@+id/etRegLastNameTable"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="12dp">
+        <TextView 
+            android:text="E-mail:" 
+            android:paddingEnd="16dp" />
+        <EditText 
+            android:id="@+id/etRegEmailTable"
+            android:inputType="textEmailAddress" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="12dp">
+        <TextView 
+            android:text="Hasło:" 
+            android:paddingEnd="16dp" />
+        <EditText 
+            android:id="@+id/etRegPasswordTable"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="24dp">
+        <TextView 
+            android:text="Potwierdź hasło:" 
+            android:paddingEnd="16dp" />
+        <EditText 
+            android:id="@+id/etRegConfirmPasswordTable"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnRegisterTable"
+            android:layout_span="2"
+            android:text="Zarejestruj" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:padding="16dp"
+    android:useDefaultMargins="true">
+
+    <TextView 
+        android:text="Imię:" />
+    <EditText 
+        android:id="@+id/etRegNameGrid"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="textPersonName" />
+
+    <TextView 
+        android:text="Nazwisko:" />
+    <EditText 
+        android:id="@+id/etRegLastNameGrid"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="textPersonName" />
+
+    <TextView 
+        android:text="E-mail:" />
+    <EditText 
+        android:id="@+id/etRegEmailGrid"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="textEmailAddress" />
+
+    <TextView 
+        android:text="Hasło:" />
+    <EditText 
+        android:id="@+id/etRegPasswordGrid"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="textPassword" />
+
+    <TextView 
+        android:text="Potwierdź hasło:" />
+    <EditText 
+        android:id="@+id/etRegConfirmPasswordGrid"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegisterGrid"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Zarejestruj" />
+
+</GridLayout>
+
